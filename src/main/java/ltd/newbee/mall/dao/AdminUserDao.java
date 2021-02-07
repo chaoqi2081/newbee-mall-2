@@ -3,7 +3,7 @@ package ltd.newbee.mall.dao;
 import ltd.newbee.mall.entity.AdminUser;
 import org.apache.ibatis.annotations.Param;
 
-public interface AdminUserMapperDao {
+public interface AdminUserDao {
     int insert(AdminUser record);
 
     int insertSelective(AdminUser record);

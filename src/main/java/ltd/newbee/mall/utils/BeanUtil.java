@@ -1,4 +1,4 @@
-package ltd.newbee.mall.util;
+package ltd.newbee.mall.utils;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.BeanWrapper;

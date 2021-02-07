@@ -1,4 +1,4 @@
-package ltd.newbee.mall.util;
+package ltd.newbee.mall.common;
 
 import java.io.Serializable;
 

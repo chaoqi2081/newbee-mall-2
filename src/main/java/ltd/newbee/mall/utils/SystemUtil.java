@@ -1,4 +1,4 @@
-package ltd.newbee.mall.util;
+package ltd.newbee.mall.utils;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

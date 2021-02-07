@@ -1,4 +1,4 @@
-package ltd.newbee.mall.util;
+package ltd.newbee.mall.utils;
 
 
 import com.fasterxml.jackson.core.JsonParseException;

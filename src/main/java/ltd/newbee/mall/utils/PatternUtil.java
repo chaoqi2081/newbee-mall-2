@@ -1,4 +1,4 @@
-package ltd.newbee.mall.util;
+package ltd.newbee.mall.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
