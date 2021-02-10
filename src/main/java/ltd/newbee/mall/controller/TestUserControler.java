@@ -1,7 +1,7 @@
 package ltd.newbee.mall.controller;
 
 import ltd.newbee.mall.common.Constants;
-import ltd.newbee.mall.utils.ResultGenerator;
+import ltd.newbee.mall.common.ResultGenerator;
 import ltd.newbee.mall.service.TestUserService;
 import ltd.newbee.mall.utils.PageUtil;
 import ltd.newbee.mall.common.Result;
