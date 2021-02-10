@@ -1,7 +1,7 @@
 package ltd.newbee.mall.service.impl;
 
 import ltd.newbee.mall.common.ServiceResultEnum;
-import ltd.newbee.mall.dao.CarouselMapper;
+import ltd.newbee.mall.dao.CarouselDao;
 import ltd.newbee.mall.entity.Carousel;
 import ltd.newbee.mall.service.NewBeeMallCarouselService;
 import ltd.newbee.mall.utils.PageQueryUtil;
@@ -9,7 +9,6 @@ import ltd.newbee.mall.utils.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -17,7 +16,7 @@ import java.util.List;
 public class NewBeeMallCarouselServiceImpl implements NewBeeMallCarouselService {
 
     @Autowired
-    private CarouselMapper carouselMapper;
+    private CarouselDao carouselMapper;
 
     @Override
     public PageResult getCarouselPage(PageQueryUtil pageUtil) {
